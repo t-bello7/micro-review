@@ -1,0 +1,39 @@
+body {
+    margin : 0;
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
+.flex {
+    display: flex
+}
+#navbar {
+    width:200px;
+    height: 100vh;
+    overflow-y: scroll;
+    
+}
+#navbar > header{
+    text-align: center;
+    font-size: 30px;
+}
+#navbar > ul > * {
+    padding: 10px 0;
+    border-bottom: 2px solid black;
+}
+.nav-link{
+    color: black;
+}
+@media (max-width: 768px) {
+    #navbar{
+        padding: 20px;
+        width: 100%;
+        height: 30vh;
+        border-radius: 5px;
+    }    
+}
